@@ -1,0 +1,64 @@
+body
+ {
+    background: url('../imgs/background_d.png');
+    font-family:  sans-serif !important;
+ }
+ .container
+ {
+    width:700px!important;
+
+ }
+.btn-success {
+    background-color: transparent;
+    color: #006400;
+    font-size:15px;
+    width:100%;
+}
+.btn-return
+{
+    border: 0px;
+
+}
+.col-md-6
+{
+    padding-top: 10px;
+    text-align: center;
+}
+
+/* Tablets */
+@media only screen and (max-width : 1024px) {
+body
+{
+background: url('../imgs/background_m.png');
+
+}
+.container
+{
+width:100%!important;
+}
+.btn-success {
+    font-size:20px;
+    width:300px;
+   white-space: normal;
+
+}
+.btn-return
+{
+    font-size:15px;
+    border: 0px;
+
+}
+}
+    
+ 
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+    .col-md-12
+    {
+    padding: 0px;
+    }
+.btn-success {
+    font-size:15px;
+    width:100%;
+}
+}

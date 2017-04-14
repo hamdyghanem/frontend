@@ -1,0 +1,7 @@
+{
+  "name": "english",
+  "translations": {
+    "foo": "bar",
+    "baz": "qux"
+  }
+}
